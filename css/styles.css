@@ -50,7 +50,6 @@ img {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    padding-right: 93px;
 }
 
 .web {
@@ -80,14 +79,16 @@ img {
     align-items: center;
 }
 
-.header-nav {
-    display: flex;
-    justify-content: space-between;
-    flex-grow: 1;
+.header-logo {
+    margin-right: 93px;
 }
 
 .header-list {
     display: flex;
+}
+
+.header-contacts {
+    margin-left: auto;
 }
 
 .header-item:not(:last-child) {
@@ -130,9 +131,8 @@ img {
 .hero {
     background-color: #2F303A;
     padding-top: 200px;
-    padding-bottom: 220px;
+    padding-bottom: 200px;
     text-align: center;
-    margin-bottom: 94px;
 }
 
 .hero-title {
@@ -165,7 +165,7 @@ img {
 /* ------------------BENEFITS--------------------- */
 
 .benefits-list {
-    margin: 94px auto;
+    padding-top: 94px;
     display: flex;
 }
 
@@ -197,7 +197,8 @@ img {
 /* ------------------WORK--------------------- */
 
 .work {
-    margin: 94px auto;
+    padding-top: 94px;
+    padding-bottom: 94px;
     text-align: center;
 }
 
@@ -274,10 +275,6 @@ img {
     display: flex;
 }
 
-.footer-left {
-    margin-right: 20px;
-}
-
 .footer-logo {
     display: inline-block;
     color: #fff;
@@ -301,16 +298,6 @@ address {
 
 .address {
     color: #fff;
-}
-
-.footer-title {
-    padding-top: 10px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #FFFFFF;
 }
 
 
@@ -356,6 +343,7 @@ button:focus {
 .portfolio-card-text {
     padding: 20px 24px;
     border: 1px solid #EEEEEE;
+    border-top: none;
 }
 
 .portfolio-list {
@@ -376,7 +364,7 @@ button:focus {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    padding-bottom: 4px;
+    margin-bottom: 4px;
 }
 
 .portfolio-item-text {
