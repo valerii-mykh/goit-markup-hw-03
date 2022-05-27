@@ -288,7 +288,7 @@ address {
     letter-spacing: 0.03em;
 }
 
-.footer-item {
+.footer-item:not(:last-child) {
     margin-bottom: 9px;
 }
 
