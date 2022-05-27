@@ -236,6 +236,7 @@ img {
 }
 
 .team-item {
+    max-width: 270px;
     background-color: #fff;
     border-radius: 0px 0px 4px 4px;
     flex-basis: calc(100% / 4 - 30px);
